@@ -42,6 +42,11 @@ Given ["i", "am", "an", "AI"]
 When logic
 Then returns 'I am an AI.'
 
+#### 2.
+Given ["yes"]
+When logic
+Then returns 'Yes.'
+
 # Setting up the environment
 
 ## To install dependencies

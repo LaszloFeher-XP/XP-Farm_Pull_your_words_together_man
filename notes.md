@@ -13,4 +13,5 @@
 - create tests 📃
 - create logic 📃
 - first test, red
-- first test, green ✔
+- first test, red
+- 2nd test, green ✔
