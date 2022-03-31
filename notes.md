@@ -12,3 +12,4 @@
 - create scenarios 📃
 - create tests 📃
 - create logic 📃
+- first test, red

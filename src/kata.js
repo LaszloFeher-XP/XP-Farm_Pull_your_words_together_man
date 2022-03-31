@@ -1,10 +1,10 @@
 class Kata {
 
-    func() {
+  sentencify(words) {
 
-    }
+  }
 }
 
 module.exports = {
-    Kata,
+  Kata,
 };
