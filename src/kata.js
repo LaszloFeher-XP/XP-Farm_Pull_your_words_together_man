@@ -1,7 +1,9 @@
 class Kata {
 
   sentencify(words) {
-    return 'I am an AI.';
+    const firstWord = words.shift().replace(/\w\S*/g, m => m.charAt(0).toUpperCase() + m.substr(1).toLowerCase());
+    words.unshift(firstWord);
+    return words.join(' ') + '.';
   }
 }
 
