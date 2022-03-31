@@ -10,6 +10,11 @@ describe('First story', () => {
     const kata = new Kata();
     expect(kata.sentencify(["yes"])).toStrictEqual('Yes.');
   });
+
+  test('GIVEN ["FIELDS","of","CORN","are","to","be","sown"] WHEN runs logic THEN returns `FIELDS of CORN are to be sown.`', () => {
+    const kata = new Kata();
+    expect(kata.sentencify(["FIELDS", "of", "CORN", "are", "to", "be", "sown"])).toStrictEqual('FIELDS of CORN are to be sown.');
+  });
 });
 
 

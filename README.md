@@ -47,6 +47,11 @@ Given ["yes"]
 When logic
 Then returns 'Yes.'
 
+#### 3.
+Given ["FIELDS","of","CORN","are","to","be","sown"]
+When logic
+Then returns 'Yes.'
+
 # Setting up the environment
 
 ## To install dependencies
